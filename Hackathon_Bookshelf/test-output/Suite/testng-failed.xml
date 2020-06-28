@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Environment" value="local"/>
+  <test thread-count="5" name="Test-Firefox(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="ts_01.Bookshelf_search_without_Storagetype">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+          <include name="reportSetUp"/>
+          <include name="getResult"/>
+          <include name="bookshelf_search_without_Storagetype"/>
+          <include name="flushReport"/>
+        </methods>
+      </class> <!-- ts_01.Bookshelf_search_without_Storagetype -->
+    </classes>
+  </test> <!-- Test-Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

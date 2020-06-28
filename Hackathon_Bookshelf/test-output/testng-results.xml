@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34613" started-at="2020-06-28T11:42:20Z" finished-at="2020-06-28T11:42:54Z">
+    <groups>
+    </groups>
+    <test name="Test-Firefox" duration-ms="34613" started-at="2020-06-28T11:42:20Z" finished-at="2020-06-28T11:42:54Z">
+      <class name="ts_01.Bookshelf_search_without_Storagetype">
+        <test-method status="PASS" signature="reportSetUp()[pri:0, instance:ts_01.Bookshelf_search_without_Storagetype@2286778]" name="reportSetUp" is-config="true" duration-ms="416" started-at="2020-06-28T11:42:19Z" finished-at="2020-06-28T11:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:ts_01.Bookshelf_search_without_Storagetype@2286778]" name="setUp" is-config="true" duration-ms="14213" started-at="2020-06-28T11:42:20Z" finished-at="2020-06-28T11:42:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bookshelf_search_without_Storagetype()[pri:0, instance:ts_01.Bookshelf_search_without_Storagetype@2286778]" name="bookshelf_search_without_Storagetype" duration-ms="20163" started-at="2020-06-28T11:42:34Z" finished-at="2020-06-28T11:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookshelf_search_without_Storagetype -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ts_01.Bookshelf_search_without_Storagetype@2286778]" name="afterMethod" is-config="true" duration-ms="112" started-at="2020-06-28T11:42:54Z" finished-at="2020-06-28T11:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookshelf_search_without_Storagetype status=SUCCESS method=Bookshelf_search_without_Storagetype.bookshelf_search_without_Storagetype()[pri:0, instance:ts_01.Bookshelf_search_without_Storagetype@2286778] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ts_01.Bookshelf_search_without_Storagetype@2286778]" name="getResult" is-config="true" duration-ms="0" started-at="2020-06-28T11:42:54Z" finished-at="2020-06-28T11:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookshelf_search_without_Storagetype status=SUCCESS method=Bookshelf_search_without_Storagetype.bookshelf_search_without_Storagetype()[pri:0, instance:ts_01.Bookshelf_search_without_Storagetype@2286778] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ts_01.Bookshelf_search_without_Storagetype@2286778]" name="closeBrowser" is-config="true" duration-ms="68" started-at="2020-06-28T11:42:54Z" finished-at="2020-06-28T11:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:ts_01.Bookshelf_search_without_Storagetype@2286778]" name="flushReport" is-config="true" duration-ms="602" started-at="2020-06-28T11:42:54Z" finished-at="2020-06-28T11:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- ts_01.Bookshelf_search_without_Storagetype -->
+    </test> <!-- Test-Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<parameter name="Environment" value="local" />
+	<test name="Test-Firefox">
+		<parameter name="Browser" value="firefox" />
+		<classes>
+			<class name="ts_01.Bookshelf_search_without_Storagetype" /> 
+			<class name="ts_01.Bookshelf_search_with_storage_type" />
+			<class name="ts_01.Bookshelf_search_with_invalid_storagetype" />
+			<class name="ts_01.Bookshelf_searh_with_invalid_price" />
+			<class name="ts_01.Search_an_invalid_product" />
+
+			<class name="ts_02.Collections_with_Being_at_Home" />
+			<class name="ts_02.Collections_with_invalid_main_menu" />
+			<class name="ts_02.Collections_with_invalid_sub_menu" />
+
+			<class name="ts_03.Giftcard_with_valid_data" />
+			<class name="ts_03.Giftcard_with_invalid_order_type" />
+			<class name="ts_03.Giftcard_with_invalid_occasion" />
+			<class name="ts_03.Giftcard_with_invalid_minimum_amount" />
+			<class name="ts_03.Giftcard_with_invalid_maximum_amount" />
+			<class name="ts_03.Giftcard_with_invalid_receipent_email" />
+			<class name="ts_03.Giftcard_with_invalid_sender_email" />
+			<class name="ts_03.Giftcard_with_invalid_sender_phone" />
+			<class name="ts_03.Giftcard_with_empty_recepient_email" />
+			<class name="ts_03.Giftcard_with_empty_recepient_name" />
+			<class name="ts_03.Giftcard_with_empty_sender_email" />
+			<class name="ts_03.Giftcard_with_empty_sender_name" />
+			<class name="ts_03.Giftcard_with_empty_sender_phone" />
+
+			<class name="ts_04.Studychair_with_high_recommendations" />
+			<class name="ts_04.Studychair_with_invalid_sortby" />
+		</classes>
+	</test>
+
+	<parameter name="Environment" value="local" />
+	<test name="Test-Chrome">
+		<parameter name="Browser" value="chrome" />
+		<classes>
+			<class name="ts_01.Bookshelf_search_without_Storagetype" />
+			<class name="ts_01.Bookshelf_search_with_storage_type" />
+			<class name="ts_01.Bookshelf_search_with_invalid_storagetype" />
+			<class name="ts_01.Bookshelf_searh_with_invalid_price" />
+			<class name="ts_01.Search_an_invalid_product" />
+
+			<class name="ts_02.Collections_with_Being_at_Home" />
+			<class name="ts_02.Collections_with_invalid_main_menu" />
+			<class name="ts_02.Collections_with_invalid_sub_menu" />
+
+			<class name="ts_03.Giftcard_with_valid_data" />
+			<class name="ts_03.Giftcard_with_invalid_order_type" />
+			<class name="ts_03.Giftcard_with_invalid_occasion" />
+			<class name="ts_03.Giftcard_with_invalid_minimum_amount" />
+			<class name="ts_03.Giftcard_with_invalid_maximum_amount" />
+			<class name="ts_03.Giftcard_with_invalid_receipent_email" />
+			<class name="ts_03.Giftcard_with_invalid_sender_email" />
+			<class name="ts_03.Giftcard_with_invalid_sender_phone" />
+			<class name="ts_03.Giftcard_with_empty_recepient_email" />
+			<class name="ts_03.Giftcard_with_empty_recepient_name" />
+			<class name="ts_03.Giftcard_with_empty_sender_email" />
+			<class name="ts_03.Giftcard_with_empty_sender_name" />
+			<class name="ts_03.Giftcard_with_empty_sender_phone" />
+
+			<class name="ts_04.Studychair_with_high_recommendations" />
+			<class name="ts_04.Studychair_with_invalid_sortby" />
+		</classes>
+	</test>
+
+
+</suite>
